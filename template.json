@@ -1,12 +1,5 @@
 {
-    "devDependencies": {
-        "autoprefixer": "^9.8.4",
-        "babel-plugin-macros": "^2.8.0",
-        "postcss-cli": "^7.1.1",
-        "tailwindcss": "^1.4.6",
-        "twin.macro": "^1.5.0"
-      },
-    "dependencies": {
+  "dependencies": {
       "@testing-library/jest-dom": "^4.2.4",
       "@testing-library/react": "^9.5.0",
       "@testing-library/user-event": "^7.2.1",
@@ -22,7 +15,6 @@
       "eject": "react-scripts eject",
       "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
       "watch:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
-      "addDevDependencies": "npm i autoprefixer babel-plugin-macros postcss-cli tailwindcss twin.macro --save-dev"
+      "addDevDependencies": "npm i --save-dev autoprefixer babel-plugin-macros postcss-cli tailwindcss twin.macro"
     }
 }
-  

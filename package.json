@@ -1,6 +1,6 @@
 {
   "name": "@fraserbenjamin/cra-template-tailwind",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": "Fraser Benjamin",
   "main": "template.json",
