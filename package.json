@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-tailwind",
+  "name": "@fraserbenjamin/cra-template-tailwind",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Fraser Benjamin",
@@ -8,10 +8,9 @@
     "node": ">=10"
   },
   "description": "A quick start Create React App template with Tailwind CSS",
-  "home": ".",
-  "private": true,
+  "homepage": ".",
   "keywords": [
-    "react", 
+    "react",
     "create-react-app",
     "cra-template",
     "template",
@@ -21,6 +20,11 @@
     "template",
     "template.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraserbenjamin/cra-template-tailwind.git",
+    "directory": "/"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -67,5 +71,8 @@
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6",
     "twin.macro": "^1.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/fraserbenjamin/cra-template-tailwind/issues"
   }
 }
